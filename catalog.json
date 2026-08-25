@@ -53,18 +53,18 @@
       "id": "runtime",
       "toolId": "runtime",
       "displayName": "Runtime Studio",
-      "name": "LUPRIA Runtime Studio",
+      "name": "LUPRIA Runtime",
       "version": "1.0.0",
       "packageType": "tool",
       "target": "launcher",
       "dependsOn": [
         "LUPRIA.DesignSystem"
       ],
-      "entryPoint": "LUPRIA.RuntimeStudio.exe",
+      "entryPoint": "LUPRIA.Runtime.exe",
       "accessMode": "runtime",
       "enabled": true,
       "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/runtime-1.0.0.rcpkg",
-      "sha256": "711FADE77EED06DBA575E61CF3512B6FFAA33CB7FF7800245C44D66D7DB5C511",
+      "sha256": "6FE1A5DF6E0F06B7D2C3A6E4B214A1C10E676EDFF625E6D7E625CB46213FC189",
       "sequence": 60
     }
   ]
