@@ -1,35 +1,53 @@
 {
-    "version":  2,
-    "releaseId":  "lupria-client-v1.0.0-20260821",
-    "channel":  "stable",
-    "packages":  [
-                     {
-                         "id":  "LUPRIA.DesignSystem",
-                         "name":  "LUPRIA Design System",
-                         "version":  "1.0.0",
-                         "packageType":  "library",
-                         "target":  "launcher",
-                         "url":  "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/LUPRIA.DesignSystem-1.0.0.rcpkg",
-                         "sha256":  "8DA519ABAC04C92AF68E2A5A22EBC6D5B3F30D9BC9EB3143BBCEFC7731C370F5",
-                         "sequence":  30
-                     },
-                     {
-                         "id":  "MetadataStudio",
-                         "toolId":  "MetadataStudio",
-                         "displayName":  "Metadata Studio",
-                         "name":  "Metadata Studio",
-                         "version":  "1.0.0",
-                         "packageType":  "tool",
-                         "target":  "launcher",
-                         "dependsOn":  [
-                                           "LUPRIA.DesignSystem"
-                                       ],
-                         "entryPoint":  "LUPRIA.MetadataStudio.exe",
-                         "accessMode":  "licensed",
-                         "enabled":  true,
-                         "url":  "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/metadataStudio-1.0.0.rcpkg",
-                         "sha256":  "ED1C0EE5D6E0B6C5BA5BBEE67F18AA3725D2464BC1E48D0CD49846F0B821B7B2",
-                         "sequence":  40
-                     }
-                 ]
+  "version": 2,
+  "releaseId": "lupria-client-v1.0.0-20260821",
+  "channel": "stable",
+  "packages": [
+    {
+      "id": "LUPRIA.DesignSystem",
+      "name": "LUPRIA Design System",
+      "version": "1.0.0",
+      "packageType": "library",
+      "target": "launcher",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/LUPRIA.DesignSystem-1.0.0.rcpkg",
+      "sha256": "8DA519ABAC04C92AF68E2A5A22EBC6D5B3F30D9BC9EB3143BBCEFC7731C370F5",
+      "sequence": 30
+    },
+    {
+      "id": "MetadataStudio",
+      "toolId": "MetadataStudio",
+      "displayName": "Metadata Studio",
+      "name": "Metadata Studio",
+      "version": "1.0.0",
+      "packageType": "tool",
+      "target": "launcher",
+      "dependsOn": [
+        "LUPRIA.DesignSystem"
+      ],
+      "entryPoint": "LUPRIA.MetadataStudio.exe",
+      "accessMode": "licensed",
+      "enabled": true,
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/metadataStudio-1.0.0.rcpkg",
+      "sha256": "ED1C0EE5D6E0B6C5BA5BBEE67F18AA3725D2464BC1E48D0CD49846F0B821B7B2",
+      "sequence": 40
+    },
+    {
+      "id": "editorStudio",
+      "toolId": "editorStudio",
+      "displayName": "Editor Studio",
+      "name": "LUPRIA Editor Studio",
+      "version": "1.0.0",
+      "packageType": "tool",
+      "target": "launcher",
+      "dependsOn": [
+        "LUPRIA.DesignSystem"
+      ],
+      "entryPoint": "LUPRIA.EditorStudio.exe",
+      "accessMode": "licensed",
+      "enabled": true,
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/editorStudio-1.0.0.rcpkg",
+      "sha256": "8CFD7264942FEACC743A89D1A8541427C0DEAE5BA4B291C198995FB13667AA67",
+      "sequence": 50
+    }
+  ]
 }
