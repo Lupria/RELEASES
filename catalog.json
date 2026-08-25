@@ -45,7 +45,7 @@
       "entryPoint": "LUPRIA.EditorStudio.exe",
       "accessMode": "licensed",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260825/editorStudio-1.0.0.rcpkg",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/editorStudio-1.0.0.rcpkg",
       "sha256": "8CFD7264942FEACC743A89D1A8541427C0DEAE5BA4B291C198995FB13667AA67",
       "sequence": 50
     }
