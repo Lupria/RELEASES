@@ -1,14 +1,20 @@
 {
   "version": 2,
-  "releaseId": "lupria-client-v1.0.0-20260821",
+  "releaseId": "client-v1.0.0-20260821",
   "channel": "stable",
   "packages": [
     {
       "id": "LUPRIA.DesignSystem",
+      "toolId": null,
+      "displayName": null,
       "name": "LUPRIA Design System",
       "version": "1.0.0",
       "packageType": "library",
       "target": "launcher",
+      "dependsOn": [],
+      "entryPoint": null,
+      "accessMode": null,
+      "enabled": true,
       "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/LUPRIA.DesignSystem-1.0.0.rcpkg",
       "sha256": "8DA519ABAC04C92AF68E2A5A22EBC6D5B3F30D9BC9EB3143BBCEFC7731C370F5",
       "sequence": 30
@@ -32,6 +38,22 @@
       "sequence": 40
     },
     {
+      "id": "RuntimeStudio",
+      "toolId": "RuntimeStudio",
+      "displayName": "LUPRIA Runtime",
+      "name": "LUPRIA Runtime",
+      "version": "1.0.0",
+      "packageType": "tool",
+      "target": "launcher",
+      "dependsOn": [],
+      "entryPoint": "LUPRIA.RuntimeStudio.exe",
+      "accessMode": "runtime",
+      "enabled": true,
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/RuntimeStudio-1.0.0.rcpkg",
+      "sha256": "CC00BDD0E3B3BAAF114A17033E5F18BC51FE0BD2510F8D1E57B99807887EABD0",
+      "sequence": 40
+    },
+    {
       "id": "editorStudio",
       "toolId": "editorStudio",
       "displayName": "Editor Studio",
@@ -48,24 +70,6 @@
       "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/editorStudio-1.0.0.rcpkg",
       "sha256": "8CFD7264942FEACC743A89D1A8541427C0DEAE5BA4B291C198995FB13667AA67",
       "sequence": 50
-    },
-    {
-      "id": "RuntimeStudio",
-      "toolId": "RuntimeStudio",
-      "displayName": "Runtime Studio",
-      "name": "LUPRIA Runtime",
-      "version": "1.0.0",
-      "packageType": "tool",
-      "target": "launcher",
-      "dependsOn": [
-        "LUPRIA.DesignSystem"
-      ],
-      "entryPoint": "LUPRIA.RuntimeStudio.exe",
-      "accessMode": "runtime",
-      "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/RuntimeStudio-1.0.0.rcpkg",
-      "sha256": "AC2588FDFEE3DFA81627566C96883291A04B182D24CEBC49B2B596DF337C6DC0",
-      "sequence": 60
     }
   ]
 }
