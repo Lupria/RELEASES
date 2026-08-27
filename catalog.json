@@ -49,8 +49,8 @@
       "entryPoint": "LUPRIA.RuntimeStudio.exe",
       "accessMode": "runtime",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/RuntimeStudio-1.0.0-44E9A848D7F4.rcpkg",
-      "sha256": "44E9A848D7F4C16647F10C405E39BA3C13CBB053396A91C50D2DC4F784F2787F",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/RuntimeStudio-1.0.0-36472E6C43EB.rcpkg",
+      "sha256": "36472E6C43EBC9ABC030C35F93F597ABB5D87AADB89A56328A55AC5222F65E7F",
       "sequence": 40
     },
     {
