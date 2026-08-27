@@ -20,6 +20,22 @@
       "sequence": 30
     },
     {
+      "id": "editorStudio",
+      "toolId": "editorStudio",
+      "displayName": "LUPRIA Editor Studio",
+      "name": "LUPRIA Editor Studio",
+      "version": "1.0.0",
+      "packageType": "tool",
+      "target": "launcher",
+      "dependsOn": [],
+      "entryPoint": "LUPRIA.EditorStudio.exe",
+      "accessMode": "licensed",
+      "enabled": true,
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/editorStudio-1.0.0-8CFD7264942F.rcpkg",
+      "sha256": "8CFD7264942FEACC743A89D1A8541427C0DEAE5BA4B291C198995FB13667AA67",
+      "sequence": 40
+    },
+    {
       "id": "MetadataStudio",
       "toolId": "MetadataStudio",
       "displayName": "Metadata Studio",
@@ -52,24 +68,6 @@
       "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/RuntimeStudio-1.0.0-54A729452AD6.rcpkg",
       "sha256": "54A729452AD6C24A305944DEDAE8F913F0FE730937E9DF5E36546E458666CF15",
       "sequence": 40
-    },
-    {
-      "id": "editorStudio",
-      "toolId": "editorStudio",
-      "displayName": "Editor Studio",
-      "name": "LUPRIA Editor Studio",
-      "version": "1.0.0",
-      "packageType": "tool",
-      "target": "launcher",
-      "dependsOn": [
-        "LUPRIA.DesignSystem"
-      ],
-      "entryPoint": "LUPRIA.EditorStudio.exe",
-      "accessMode": "licensed",
-      "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/editorStudio-1.0.0.rcpkg",
-      "sha256": "8CFD7264942FEACC743A89D1A8541427C0DEAE5BA4B291C198995FB13667AA67",
-      "sequence": 50
     }
   ]
 }
