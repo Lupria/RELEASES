@@ -36,21 +36,19 @@
       "sequence": 40
     },
     {
-      "id": "MetadataStudio",
-      "toolId": "MetadataStudio",
-      "displayName": "Metadata Studio",
-      "name": "Metadata Studio",
+      "id": "metadataStudio",
+      "toolId": "metadataStudio",
+      "displayName": "LUPRIA Metadata Studio",
+      "name": "LUPRIA Metadata Studio",
       "version": "1.0.0",
       "packageType": "tool",
       "target": "launcher",
-      "dependsOn": [
-        "LUPRIA.DesignSystem"
-      ],
+      "dependsOn": [],
       "entryPoint": "LUPRIA.MetadataStudio.exe",
       "accessMode": "licensed",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/metadataStudio-1.0.0.rcpkg",
-      "sha256": "ED1C0EE5D6E0B6C5BA5BBEE67F18AA3725D2464BC1E48D0CD49846F0B821B7B2",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/metadataStudio-1.0.0-659A2CB95DBA.rcpkg",
+      "sha256": "659A2CB95DBA3CCE5EF0082C40A294C1F70556B729A4E93CBB9043A96BA29F72",
       "sequence": 40
     },
     {
