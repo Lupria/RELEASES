@@ -4,38 +4,6 @@
   "channel": "stable",
   "packages": [
     {
-      "id": "LUPRIA.DesignSystem",
-      "toolId": null,
-      "displayName": null,
-      "name": "LUPRIA Design System",
-      "version": "1.0.0",
-      "packageType": "library",
-      "target": "launcher",
-      "dependsOn": [],
-      "entryPoint": null,
-      "accessMode": null,
-      "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/LUPRIA.DesignSystem-1.0.0.rcpkg",
-      "sha256": "8DA519ABAC04C92AF68E2A5A22EBC6D5B3F30D9BC9EB3143BBCEFC7731C370F5",
-      "sequence": 30
-    },
-    {
-      "id": "deployStudio",
-      "toolId": "deployStudio",
-      "displayName": "LUPRIA Deploy Studio",
-      "name": "LUPRIA Deploy Studio",
-      "version": "1.0.0",
-      "packageType": "tool",
-      "target": "launcher",
-      "dependsOn": [],
-      "entryPoint": "LUPRIA.DeployStudio.exe",
-      "accessMode": "licensed",
-      "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/deployStudio-1.0.0-DB0BE22FEB1A.rcpkg",
-      "sha256": "DB0BE22FEB1A8489C241346424D9C36A5F3BAA0F7A8723F2D47E63735AAF5543",
-      "sequence": 40
-    },
-    {
       "id": "editorStudio",
       "toolId": "editorStudio",
       "displayName": "LUPRIA Editor Studio",
