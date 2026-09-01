@@ -4,8 +4,8 @@
   "channel": "stable",
   "packages": [
     {
-      "id": "deployStudio",
-      "toolId": "deployStudio",
+      "id": "DeployStudio",
+      "toolId": "DeployStudio",
       "displayName": "LUPRIA Deploy Studio",
       "name": "LUPRIA Deploy Studio",
       "version": "1.0.0",
@@ -15,8 +15,8 @@
       "entryPoint": "LUPRIA.DeployStudio.exe",
       "accessMode": "licensed",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/DeployStudio-1.0.0-FE2123A85A64.rcpkg",
-      "sha256": "FE2123A85A64FFC7ABD015C66E5A71E6AF695F9B1A64107A7064A98C7AF1BF12",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/DeployStudio-1.0.0-5E633FECE61F.rcpkg",
+      "sha256": "5E633FECE61F48C805740555144584135D6388623D37684A6EC5AC6C4B07E292",
       "sequence": 40
     },
     {
