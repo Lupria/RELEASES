@@ -15,8 +15,8 @@
       "entryPoint": "LUPRIA.DeployStudio.exe",
       "accessMode": "licensed",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/DeployStudio-1.0.0-E074E1B5ED4D.rcpkg",
-      "sha256": "E074E1B5ED4D64B0641881F986057CC5FB136A209909D2C702900A8A50DF61C2",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/DeployStudio-1.0.0-86CB3438FED4.rcpkg",
+      "sha256": "86CB3438FED435359852C74A732BC7F121A64B36E7D3AC4346FCFD388E1045EF",
       "sequence": 40
     },
     {
