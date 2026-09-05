@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "releaseId": "client-v1.0.0-20260821",
+  "releaseId": "release-v1.0.0-20260821",
   "channel": "stable",
   "packages": [
     {
@@ -15,8 +15,8 @@
       "entryPoint": "LUPRIA.DeployStudio.exe",
       "accessMode": "licensed",
       "enabled": true,
-      "url": "https://github.com/Lupria/RELEASES/releases/download/client-v1.0.0-20260821/DeployStudio-1.0.0-143DF634A0E5.rcpkg",
-      "sha256": "143DF634A0E568F52CF87C2E13A5A95679F800DA34E8F5423C7AEA115558BF0E",
+      "url": "https://github.com/Lupria/RELEASES/releases/download/release-v1.0.0-20260821/DeployStudio-1.0.0-550578F6DF69.rcpkg",
+      "sha256": "550578F6DF69B85287C4FB96AAABF021DDD046A80672210A15FD24CCC1F58E49",
       "sequence": 40
     },
     {
